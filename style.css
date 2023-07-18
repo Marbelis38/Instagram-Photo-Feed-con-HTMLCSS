@@ -2,16 +2,23 @@
     box-sizing: border-box;
 }
 body{
-    background-color: white;
+    background-color:white;
 }
 .post{
     display: flex;
-    background-color: white;
+    flex-wrap: wrap;
     width: 450px;
     flex-direction: column; 
     overflow: hidden;
     margin:100px;
 }
+
+.postal {
+    flex-basis: 30%;
+    margin: 10px;
+    padding: 20px;
+    background-color: blueviolet;
+  }
 .post .post-titulo{
     display: flex;
     align-items: center;
